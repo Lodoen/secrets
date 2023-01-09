@@ -4,7 +4,7 @@
   "description": "Working with GitHub secrets",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/js/test.js"
   },
   "keywords": [
     "GitHub",
@@ -12,5 +12,8 @@
     "Actions"
   ],
   "author": "Jonas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
