@@ -12,5 +12,8 @@
     "Actions"
   ],
   "author": "Jonas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
